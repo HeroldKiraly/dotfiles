@@ -1,0 +1,283 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jun 26 13:19:28 2025
+;; Desktop file format version 208
+;; Emacs version 30.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (26717 33056 742882 123000) (desktop . "208") "levente@DesktopPC-Levente" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-UKWN-Adwaita Mono-regular-normal-normal-*-15-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#ebdbb2") (background-color . "#1d2021") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (use-frame-synchronization) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#ebdbb2") (font-parameter) (sticky) (shaded) (environment) (dnd-root-window-position) (last-focus-update . t) (frameset--id . "C84E-AB8D-F77C-BBFD") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":1") (explicit-name) (height . 68) (width . 186) (left . 1727) (top . 59)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 90) (min-pixel-height-ignore . 40) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 20) (min-pixel-width-safe . 18)) leaf (pixel-width . 1696) (pixel-height . 1344) (total-width . 188) (total-height . 67) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 222) (start . 1)) (prev-buffers ("emacs" 1 432) ("index.html" 2643 5051) ("public" 1 363) ("heroldkiraly.com" 1 500) ("Documents" 1 430) ("init.el" 1 224) ("doing-hard-things.md" 1835 3604) ("Blogs" 1 246) ("2025-05-07.md" 1 1) ("obsidian-vault" 1 448) ("thoughts-on-modern-web-design.md" 1 62) ("FFXIV_BOOT.cfg" 1 339) ("FINAL FANTASY XIV - A Realm Reborn" 1 356) ("My Games" 1 260) ("My Documents" 1 366) ("steamuser" 1 841) ("users" 1 286) ("drive_c" 1 470) ("Program Files (x86)" 1 194) ("pfx" 1 364) ("thoughts-on-modern-web-design.html" 1 4675) ("stylesheet.css" 1 3) ("*scratch*" 1 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.config/emacs" "~/Documents/heroldkiraly.com/public/" "~/Documents/" "~/.config/emacs" "~/Documents/" "~/Documents/Blogs/" "~/Documents/Blogs/doing-hard-things.md" "~/Documents/Blogs/" "~/Documents/Blogs/thoughts-on-modern-web-design.md" "~/Documents/Blogs/" "~/Documents/Blogs/thoughts-on-modern-web-design" "~/Documents" "~/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/" "~/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/" "~/Documents/heroldkiraly.com/public/" "~/Documents/heroldkiraly.com/public/thoughts-on-modern-web-design.html" "~/Documents/heroldkiraly.com/public/blogs/" "~/Documents/heroldkiraly.com/public/" "~/Documents/heroldkiraly.com/public/blogs/thoughts-on-modern-web-design.html" "~/Documents/heroldkiraly.com/public/blogs/" "~/Documents/heroldkiraly.com/public/blogs/thoughts-on-modern-web-design.html" "~/Documents/" "~/Documents/Blogs/blog01.md" "~/Documents/Blogs/" "~/Documents/" "~/Documents/heroldkiraly.com/public/" "~/Documents/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/levente/.config/emacs/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(font-lock-mode eldoc-mode visual-line-mode)
+  222
+  '(408 nil)
+  nil
+  nil
+  '((buffer-display-time 26717 32999 355621 48000) (buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring (1102 164 1102 224 408 169))))
+
+(desktop-create-buffer 208
+  nil
+  "emacs"
+  'dired-mode
+  '(font-lock-mode visual-line-mode)
+  432
+  '(nil nil)
+  t
+  '("/home/levente/.config/emacs/")
+  '((buffer-display-time 26717 32907 655269 628000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/levente/Documents/heroldkiraly.com/public/index.html"
+  "index.html"
+  'mhtml-mode
+  '(visual-line-mode font-lock-mode)
+  5051
+  '(4877 nil)
+  nil
+  nil
+  '((buffer-display-time 26717 32902 965728 367000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (2329 1726 810 748 4039 1406 1437 854 854 854 854 2947 1556 1630 3007 5034))))
+
+(desktop-create-buffer 208
+  "/home/levente/Documents/heroldkiraly.com/public/stylesheet.css"
+  "stylesheet.css"
+  'css-mode
+  '(visual-line-mode font-lock-mode)
+  944
+  '(761 nil)
+  nil
+  nil
+  '((buffer-display-time 26717 32953 505246 572000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (761 729 697 724 758 761 944))))
+
+(desktop-create-buffer 208
+  nil
+  "public"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  423
+  '(374 nil)
+  t
+  '("/home/levente/Documents/heroldkiraly.com/public/")
+  '((buffer-display-time 26717 24727 387233 376000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "heroldkiraly.com"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  500
+  '(nil nil)
+  t
+  '("/home/levente/Documents/heroldkiraly.com/")
+  '((buffer-display-time 26717 24588 639874 526000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "Documents"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  430
+  '(790 nil)
+  t
+  '("/home/levente/Documents/")
+  '((buffer-display-time 26717 24587 495932 285000) (truncate-lines))
+  '((mark-ring (844))))
+
+(desktop-create-buffer 208
+  "/home/levente/Documents/Blogs/doing-hard-things.md"
+  "doing-hard-things.md"
+  'fundamental-mode
+  '(visual-line-mode font-lock-mode)
+  3604
+  '(3596 nil)
+  nil
+  nil
+  '((buffer-display-time 26717 24454 10418 418000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (3604 3374 3115 2739 2417 1835 1825 57 1825 46 1825 1825 1835 2417 2739 3115))))
+
+(desktop-create-buffer 208
+  nil
+  "Blogs"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  246
+  '(1 nil)
+  t
+  '("/home/levente/Documents/Blogs/")
+  '((buffer-display-time 26716 58272 762768 258000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/levente/Documents/obsidian-vault/2025-05-07.md"
+  "2025-05-07.md"
+  'fundamental-mode
+  '(visual-line-mode font-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26716 58259 869845 759000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "obsidian-vault"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  448
+  '(nil nil)
+  t
+  '("/home/levente/Documents/obsidian-vault/")
+  '((buffer-display-time 26716 58232 922975 430000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/levente/Documents/Blogs/thoughts-on-modern-web-design.md"
+  "thoughts-on-modern-web-design.md"
+  'fundamental-mode
+  '(visual-line-mode font-lock-mode)
+  62
+  '(62 nil)
+  nil
+  nil
+  '((buffer-display-time 26716 58177 694385 979000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/levente/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn/FFXIV_BOOT.cfg"
+  "FFXIV_BOOT.cfg"
+  'conf-space-mode
+  '(visual-line-mode font-lock-mode)
+  339
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 26716 58076 242319 748000) (buffer-file-coding-system . undecided-dos) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "FINAL FANTASY XIV - A Realm Reborn"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  356
+  '(nil nil)
+  t
+  '("/home/levente/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/FINAL FANTASY XIV - A Realm Reborn/")
+  '((buffer-display-time 26716 57753 731274 223000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "My Games"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  260
+  '(nil nil)
+  t
+  '("/home/levente/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/My Games/")
+  '((buffer-display-time 26716 57751 267717 620000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "My Documents"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  366
+  '(nil nil)
+  t
+  '("/home/levente/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/My Documents/")
+  '((buffer-display-time 26716 57745 559726 855000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "steamuser"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  841
+  '(nil nil)
+  t
+  '("/home/levente/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/steamuser/")
+  '((buffer-display-time 26716 57735 908270 523000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "users"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  286
+  '(nil nil)
+  t
+  '("/home/levente/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/users/")
+  '((buffer-display-time 26716 57723 725840 717000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "drive_c"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  470
+  '(589 nil)
+  t
+  '("/home/levente/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/")
+  '((buffer-display-time 26716 57717 95349 466000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "Program Files (x86)"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  194
+  '(nil nil)
+  t
+  '("/home/levente/.local/share/Steam/steamapps/compatdata/39210/pfx/drive_c/Program Files (x86)/")
+  '((buffer-display-time 26716 57715 283370 171000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "pfx"
+  'dired-mode
+  '(visual-line-mode font-lock-mode)
+  364
+  '(nil nil)
+  t
+  '("/home/levente/.local/share/Steam/steamapps/compatdata/39210/pfx/")
+  '((buffer-display-time 26716 57709 896040 233000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/levente/Documents/heroldkiraly.com/public/thoughts-on-modern-web-design.html"
+  "thoughts-on-modern-web-design.html"
+  'mhtml-mode
+  '(visual-line-mode font-lock-mode)
+  2717
+  '(750 nil)
+  nil
+  nil
+  '((buffer-display-time 26717 32972 64605 128000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (4642 4462 4561 4449 4416 4676 4616 4399 4315 3684 3388 2724 1851 1441 936 2717))))
+

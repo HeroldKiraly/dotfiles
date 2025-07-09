@@ -2,16 +2,22 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Hyprland Config"
- (filename . "~/.config/hypr/hyprland.conf")
- (front-context-string . "# You can split ")
+(("hyprland-portals.conf"
+ (filename . "~/.config/xdg-desktop-portal/hyprland-portals.conf")
+ (front-context-string . "# Hyprland Porta")
  (rear-context-string)
  (position . 1)
- (last-modified 26717 34296 1571 150000))
+ (last-modified 26732 22111 330122 349000))
+("Hyprland Config"
+ (filename . "~/dotfiles/hypr/hyprland.conf")
+ (front-context-string . "# hypr.conf - Hy")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 26731 54462 904419 536000))
 ("Emacs init.el"
- (filename . "~/.config/emacs/init.el")
- (front-context-string . "(load-theme 'gru")
+ (filename . "~/dotfiles/emacs/init.el")
+ (front-context-string . ";; init.el - Ema")
  (rear-context-string)
  (position . 1)
- (last-modified 26717 33640 932039 506000))
+ (last-modified 26731 54336 314683 873000))
 )

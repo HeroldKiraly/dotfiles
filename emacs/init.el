@@ -22,6 +22,11 @@
 
 (keymap-global-set "C-/" 'comment-line)
 
+(keymap-global-set "C-c q" '(lambda ()
+                  (interactive)
+                  (find-file "/ssh:Levente@Kiraly-NAS:/volume1/homes/Levente")))
+
+
 (setq
  backup-directory-alist `((".*" . ,temporary-file-directory))
  auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))

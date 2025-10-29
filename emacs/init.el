@@ -24,8 +24,10 @@
 
 (keymap-global-set "C-c q" '(lambda ()
                   (interactive)
-                  (find-file "/ssh:Levente@Kiraly-NAS:/volume1/homes/Levente")))
+                  (find-file "/ssh:Levente@192.168.1.24:/volume1/homes/Levente")))
 
+(global-set-key (kbd "C-c c") 'kill-ring-save) ;; Copy
+(global-set-key (kbd "C-c v") 'yank) ;; Paste
 
 (setq
  backup-directory-alist `((".*" . ,temporary-file-directory))

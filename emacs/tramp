@@ -1,10 +1,10 @@
-;; -*- emacs-lisp -*- <25/10/13 14:05:06 ~/.config/emacs/tramp>
+;; -*- emacs-lisp -*- <25/10/20 22:49:35 ~/.config/emacs/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; Run `M-x tramp-cleanup-all-connections' instead.
 
 (((tramp-file-name "cache" nil nil nil nil nil nil)
   ("tramp-version" "2.7.3.30.2"))
- ((tramp-file-name "ssh" "Levente" nil "Kiraly-NAS" nil nil nil)
+ ((tramp-file-name "ssh" "Levente" nil "192.168.1.24" nil nil nil)
   ("null-device" "/dev/null") ("uname" "Linux 4.4.302+")
   ("locale" "LC_ALL=en_US.utf8") ("test" "test")
   ("file-exists" "test -e")
@@ -21,5 +21,4 @@
   ("ls--quoting-style=literal --show-control-chars"
    "--quoting-style=literal --show-control-chars")
   ("df-blocksize" 1)
-  ("df" "\\df --block-size=1 --output=size,used,avail") ("bzr" nil)
-  ("git" nil) ("hg" nil)))
+  ("df" "\\df --block-size=1 --output=size,used,avail")))

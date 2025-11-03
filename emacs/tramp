@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <25/10/20 22:49:35 ~/.config/emacs/tramp>
+;; -*- emacs-lisp -*- <25/10/30 22:39:24 ~/.config/emacs/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; Run `M-x tramp-cleanup-all-connections' instead.
 
@@ -21,4 +21,5 @@
   ("ls--quoting-style=literal --show-control-chars"
    "--quoting-style=literal --show-control-chars")
   ("df-blocksize" 1)
-  ("df" "\\df --block-size=1 --output=size,used,avail")))
+  ("df" "\\df --block-size=1 --output=size,used,avail") ("bzr" nil)
+  ("git" nil) ("hg" nil)))
